@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: gray;
+    color: black;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 2px solid black;
+
+  }
+  input:focus {
+    outline: none; /*Para dejarlo en forma de cuadro el contorno*/
+  }
+
+  button {
+    padding: 0.7em;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    width: 100%;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
