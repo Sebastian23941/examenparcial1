@@ -8,8 +8,7 @@ import "./login.css";
 const visitors = [
   { username: "alejandra.m", password: "verde123", fullname: "Alejandra Morales", numberofticket: "00123"},
   { username: "david.p", password: "bosque456", fullname: "David Pérez", numberofticket: "00124"},
-  { username: "lucia.r", password: "eco789", fullname: "Lucía Ramírez", numberofticket: "00125"},
-  { username: "a", password: "a", fullname: "Lucía Ramírez", numberofticket: "00125"}
+  { username: "lucia.r", password: "eco789", fullname: "Lucía Ramírez", numberofticket: "00125"}
 ];
 
 //Crea las funciones para ademas del router hacia otra pagina, el usuario y contraseña y el error
